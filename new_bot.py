@@ -2,10 +2,10 @@ import telebot
 # from random import *
 # import json
 # import requests
-import main
+
 from g4f.client import Client
 
-API_TOKEN = str(main.API_TOKEN) # Токен от BotFather
+API_TOKEN = YOUR_API_TOKEN # Токен от BotFather
 bot = telebot.TeleBot(API_TOKEN)
 mode_on_off = False
 
